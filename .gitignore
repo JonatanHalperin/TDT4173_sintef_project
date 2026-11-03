@@ -218,3 +218,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# Data (large; everyone keeps their own copy locally)
+data/
+*.csv
+
+
+# Predictions, models and other generated files
+*.npy
+*.pkl
+*.joblib
+*.pt
+*.pth
+submission_*.csv
+unit_settings.json
+nn_sys_epochs.json
+!prediction_mapping.csv
+!sample_submission.csv
