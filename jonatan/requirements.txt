@@ -1,5 +1,5 @@
 # TDT4173 Group 180. 
-# Short notebook 1 (Jonatan's v16): Python 3.13.3, using the original pins below.
+# Short notebook 1: Python 3.13.3, using the original pins below.
 # Short notebook 2 (LP/MILP + XGBoost + CNN-GRU): Python 3.11.5.
 # The Model 2 pins use the notebook's recorded versions and the local 3.11 environment.
 
