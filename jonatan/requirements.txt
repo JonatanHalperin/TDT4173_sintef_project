@@ -1,17 +1,27 @@
-# Python 3.13.3. Versions used for the selected Kaggle submissions.
-# Needed by the two short notebooks:
-numpy==2.5.3
-pandas==3.0.6
-scipy==1.18.1          # HiGHS LP (both notebooks) and MILP (Short notebook 2)
-xgboost==3.4.1
-PyYAML==6.0.3
-torch==2.14.1          # neural networks in both notebooks
-scikit-learn==1.9.1    # Short notebook 2 (feature screening, metrics)
-joblib==1.6.0          # Short notebook 2 (parallel LP/MILP)
-ipykernel==7.4.0       # to run the notebooks in Jupyter
+# TDT4173 Group 180. 
+# Short notebook 1 (Jonatan's v16): Python 3.13.3, using the original pins below.
+# Short notebook 2 (LP/MILP + XGBoost + CNN-GRU): Python 3.11.5.
+# The Model 2 pins use the notebook's recorded versions and the local 3.11 environment.
 
-# Only for the development notebooks (01–04), not needed for the short notebooks:
-lightgbm==4.7.0
-matplotlib==3.11.2
-shap==0.53.0
-plotly==7.1.0
+# Shared by both short notebooks
+PyYAML==6.0.3
+
+# Model 1 environment
+numpy==2.5.3 ; python_version >= "3.12"
+pandas==3.0.6 ; python_version >= "3.12"
+scipy==1.18.1 ; python_version >= "3.12"
+xgboost==3.4.1 ; python_version >= "3.12"
+torch==2.14.1 ; python_version >= "3.12"
+scikit-learn==1.9.1 ; python_version >= "3.12"
+joblib==1.6.0 ; python_version >= "3.12"
+ipykernel==7.4.0 ; python_version >= "3.12"
+
+# Model 2 environment
+numpy==2.2.6 ; python_version == "3.11"
+pandas==2.2.3 ; python_version == "3.11"
+scipy==1.15.3 ; python_version == "3.11"
+xgboost==3.2.0 ; python_version == "3.11"
+torch==2.8.0 ; python_version == "3.11"
+scikit-learn==1.6.1 ; python_version == "3.11"
+joblib==1.5.1 ; python_version == "3.11"
+ipykernel==6.29.5 ; python_version == "3.11"
